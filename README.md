@@ -82,7 +82,7 @@ Stores dashboard telemetry, including speed, RPM, gear, and fuel, in a local dat
 
 ## 🖥️ Dashboard Interface
 
-Add screenshots of your actual application here to showcase the interface.
+
 
 <div align="center">
 
