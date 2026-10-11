@@ -94,13 +94,6 @@ Stores dashboard telemetry, including speed, RPM, gear, and fuel, in a local dat
 
 </div>
 
-Replace the placeholders with your screenshots:
-
-```html
-<img src="assets/dashboard.png" width="48%" alt="AutoPulse Dashboard"/>
-<img src="assets/admin-panel.png" width="48%" alt="AutoPulse Admin Panel"/>
-```
-
 ## 🏗️ System Architecture
 
 AutoPulse consists of two independent Qt applications that communicate over a TCP/IP connection.
@@ -182,8 +175,6 @@ AutoPulse/
 └── README.md
 ```
 
-*Adjust the directory tree to match the actual files in your repository.*
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -214,14 +205,12 @@ Select a compatible compiler and Qt kit. Build both applications separately.
 **4. Launch the applications**
 
 - Start the Admin Panel and start its TCP server.
-- Launch the Dashboard application.
-- Ensure both applications use the same TCP port and compatible connection settings.
 
 **5. Test communication**
 
 Adjust speed, gear, and fuel values in the Admin Panel and observe the corresponding dashboard updates.
 
-> Ensure that the server is listening before the dashboard attempts to connect. Update the repository URL and build instructions if your project uses different paths or configuration.
+> Ensure that the server is listening before the dashboard attempts to connect
 
 ## 🧪 Testing
 
@@ -234,7 +223,6 @@ The project includes tests for selected components such as:
 - GaugeWidget
 - GearWidget
 
-GoogleTest can be used to run the configured test suite. Verify the test target and build configuration in your repository before relying on these tests.
 
 ## 💡 Engineering Concepts Demonstrated
 
